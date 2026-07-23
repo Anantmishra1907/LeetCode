@@ -9,7 +9,7 @@ class Solution {
 		// We will add that as well into our list
         while(l1 != null || l2 != null || carry == 1){
             int sum = 0; // intialising our sum
-            if(l1 != null){ // adding l1 to our sum & moving l1
+            if(l1 != null){ // adding l1 to our sum & mov
                 sum += l1.val;
                 l1 = l1.next;
             }
